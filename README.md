@@ -23,6 +23,9 @@ For simplicity, I utilised huggingface's Sp1786/multiclass-sentiment-analysis-da
 ![Comparison Plot](Result/comparison-plot-test-dataset.png)
 
 Conclusion: The result conveys all the models classifies more or less similarly with deviation of 5%. Among them, `all-mpnet-base-v2` embedding model outperformed all others. Considering size-performance tradeoff, I would prefer `all-MiniLM-L6-v2` as it is smaller in size yet yields competitive performance scores.
+## Important Note
+This comparison is indeed to quickly compare embedding models and use any of them. This does not mean anything about models semantic capture performance. And also this comparison is not the ideal comparison but a quicker version to make data scientists lives little easier.
+
 ## Reference
 
     1. SentenceTransformers lib: https://www.sbert.net/docs/sentence_transformer/pretrained_models.html
